@@ -25,3 +25,4 @@ dependencies:
 
   - pip:
     - torchvision # DL
+    - gym # RL

@@ -6,7 +6,6 @@ name: deeplearn_course
 channels:
   
   - pytorch # DL
-  - https://conda.anaconda.org/rdkit # Molecule
 
 dependencies:
 
@@ -22,10 +21,7 @@ dependencies:
   - scikit-learn
   - networkx
   - seaborn
-
   - pytorch=1.1 # DL
-  - rdkit # Molecule
 
   - pip:
     - torchvision # DL
-    - gym # RL
